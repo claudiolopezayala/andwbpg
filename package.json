@@ -1,0 +1,17 @@
+{
+  "name": "andwbpg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/claudiolopezayala/andwbpg",
+  "author": "claudiwicode <claudio.wicode@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "build": "cross-env NODE_ENV=production tailwindcss -i ./src/input.css -o ./public/output.css"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "tailwindcss": "<4.0.0"
+  }
+}
