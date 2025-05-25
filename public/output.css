@@ -592,6 +592,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -640,7 +644,16 @@ video {
   width: 12rem;
 }
 
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .min-w-\[100\%\] {
+  min-width: 100%;
+}
+
+.min-w-full {
   min-width: 100%;
 }
 
@@ -663,6 +676,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .rounded-sm {
@@ -699,6 +716,11 @@ video {
      object-position: left;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pl-1 {
   padding-left: 0.25rem;
 }
@@ -715,6 +737,42 @@ video {
   font-family: lexend;
 }
 
+.font-\[\] {
+  font-family: ;
+}
+
+.font-\[R\] {
+  font-family: R;
+}
+
+.font-\[Reenie\] {
+  font-family: Reenie;
+}
+
+.font-\[Reenie\+B\] {
+  font-family: Reenie+B;
+}
+
+.font-\[Reenie\+Bea\] {
+  font-family: Reenie+Bea;
+}
+
+.font-\[Reenie\+Be\] {
+  font-family: Reenie+Be;
+}
+
+.font-\[Reenie\+\] {
+  font-family: Reenie+;
+}
+
+.font-\[Reenie\+Beanie\] {
+  font-family: Reenie+Beanie;
+}
+
+.font-\[cursive\] {
+  font-family: cursive;
+}
+
 .text-\[10pt\] {
   font-size: 10pt;
 }
@@ -725,6 +783,19 @@ video {
 
 .text-\[8pt\] {
   font-size: 8pt;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[12pt\] {
+  font-size: 12pt;
 }
 
 .font-black {
@@ -739,6 +810,10 @@ video {
   font-weight: 500;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .leading-none {
   line-height: 1;
 }
@@ -747,7 +822,23 @@ video {
   line-height: 1.25;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
 }
