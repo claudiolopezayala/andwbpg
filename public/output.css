@@ -732,6 +732,11 @@ video {
   border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
 }
 
+.bg-\[\#151515\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 21 21 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#C9010B\] {
   --tw-bg-opacity: 1;
   background-color: rgb(201 1 11 / var(--tw-bg-opacity, 1));
@@ -765,6 +770,11 @@ video {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .py-4 {
@@ -870,6 +880,11 @@ video {
 .hover\:bg-\[\#F8F3E6\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(248 243 230 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-\[\#ededed\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 237 237 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-\[\#C9010B\]:hover {
