@@ -597,8 +597,24 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-1 {
@@ -643,6 +659,10 @@ video {
 
 .w-\[30\%\] {
   width: 30%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .w-\[90\%\] {
@@ -772,9 +792,9 @@ video {
   padding-right: 2.5rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .py-4 {
@@ -804,6 +824,10 @@ video {
 
 .text-\[13pt\] {
   font-size: 13pt;
+}
+
+.text-\[20pt\] {
+  font-size: 20pt;
 }
 
 .text-\[37pt\] {
@@ -926,6 +950,14 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:flex {
+    display: flex;
+  }
+
+  .xl\:hidden {
+    display: none;
+  }
+
   .xl\:h-\[18rem\] {
     height: 18rem;
   }
@@ -938,8 +970,24 @@ video {
     width: 23rem;
   }
 
+  .xl\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .xl\:w-\[55\%\] {
+    width: 55%;
+  }
+
   .xl\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:flex-col {
+    flex-direction: column;
   }
 
   .xl\:text-\[13pt\] {
