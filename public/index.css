@@ -1,4 +1,4 @@
-* { border: 1px solid red; }
+/* * { border: 1px solid red; } */
 
 @keyframes marquee {
   0%   { transform: translateX(0); }
@@ -17,4 +17,8 @@
 
 .reenie-beanie{
   font-family: 'Reenie Beanie', cursive;
+}
+
+.passion-one{
+  font-family: 'Passion One';
 }
