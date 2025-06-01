@@ -1,4 +1,4 @@
-* { border: 1px solid black; }
+/* * { border: 1px solid black; } */
 
 @keyframes marquee {
   0%   { transform: translateX(0); }

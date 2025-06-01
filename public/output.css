@@ -605,6 +605,66 @@ video {
   margin-top: 2rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[200\] {
+  margin-left: 200;
+}
+
+.ml-\[200px\] {
+  margin-left: 200px;
+}
+
+.ml-\[10\] {
+  margin-left: 10;
+}
+
+.ml-\[10\%\] {
+  margin-left: 10%;
+}
+
+.ml-\[9\%\] {
+  margin-left: 9%;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[200\] {
+  margin-top: 200;
+}
+
+.mt-\[200px\] {
+  margin-top: 200px;
+}
+
+.mt-\[-10\] {
+  margin-top: -10;
+}
+
+.mt-\[-10vw\] {
+  margin-top: -10vw;
+}
+
+.mt-\[-15vw\] {
+  margin-top: -15vw;
+}
+
+.mt-\[-12vw\] {
+  margin-top: -12vw;
+}
+
 .block {
   display: block;
 }
@@ -635,6 +695,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .w-6 {
@@ -678,8 +742,52 @@ video {
   width: max-content;
 }
 
+.w-\[80\] {
+  width: 80;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[38\%\] {
+  width: 38%;
+}
+
 .min-w-\[100\%\] {
   min-width: 100%;
+}
+
+.min-w-\[\] {
+  min-width: ;
+}
+
+.min-w-\[15rem\] {
+  min-width: 15rem;
+}
+
+.min-w-\[5rem\] {
+  min-width: 5rem;
+}
+
+.min-w-\[8rem\] {
+  min-width: 8rem;
+}
+
+.min-w-\[9rem\] {
+  min-width: 9rem;
+}
+
+.min-w-\[10rem\] {
+  min-width: 10rem;
+}
+
+.min-w-\[11rem\] {
+  min-width: 11rem;
+}
+
+.min-w-\[12rem\] {
+  min-width: 12rem;
 }
 
 .max-w-\[50rem\] {
@@ -839,6 +947,14 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[8pt\] {
+  font-size: 8pt;
+}
+
+.text-\[9pt\] {
+  font-size: 9pt;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -921,15 +1037,37 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@media (min-width: 640px) {
+  .sm\:w-\[250px\] {
+    width: 250px;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[250px\] {
+    width: 250px;
+  }
+
   .md\:text-\[15pt\] {
     font-size: 15pt;
+  }
+
+  .md\:text-\[13pt\] {
+    font-size: 13pt;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:bottom-\[20\%\] {
     bottom: 20%;
+  }
+
+  .lg\:w-\[250px\] {
+    width: 250px;
   }
 
   .lg\:text-\[18pt\] {
@@ -942,6 +1080,10 @@ video {
 
   .lg\:text-\[24pt\] {
     font-size: 24pt;
+  }
+
+  .lg\:text-\[15pt\] {
+    font-size: 15pt;
   }
 
   .lg\:leading-8 {
