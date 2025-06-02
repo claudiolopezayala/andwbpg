@@ -15,31 +15,31 @@
   <div class="relative mt-5">
     <img 
       src="./imgs/StarGarabato.png" 
-      class="absolute top-0 right-0 w-[32vw] lg:w-[25vw] xl:w-[20vw] h-[80%] object-contain z-0 object-right-top" 
+      class="absolute top-0 right-0 w-[32vw] lg:w-[25vw] xl:w-[20vw] h-[80%] object-contain z-0 object-right-top mr-1 md:mr-9 mt-2 md:mt-4 lg:mr-12" 
       alt=""
     >
   
-    <div class="passion-one text-[#323131] font-bold relative z-10 mr-3 leading-[2.8rem] md:leading-[6rem] lg:leading-[7.5rem] xl:leading-[9rem] text-[40pt] md:text-[80pt] lg:text-[112pt] xl:text-[145pt] text-center">
+    <div class="passion-one text-[#323131] font-bold relative z-10 mr-3 leading-[2.6rem] md:leading-[4.5rem] lg:leading-[7.1rem] xl:leading-[8.3rem] text-[35pt] md:text-[62pt] lg:text-[95pt] xl:text-[115pt] text-center">
       <div>PAQUETES</div>
       <div>DE BRANDING</div>
     </div>
   </div>
 
 
-  <div class="flex flex-col items-center">
-    <div class="relative w-full overflow-hidden max-h-[70vh] mt-4">
+  <div class="flex flex-col items-center md:hidden">
+    <div class="relative w-full overflow-hidden mt-4">
       <div class="carousel flex transition-transform duration-700 ease-in-out">
-        <img src="./imgs/carrousel/sm/paqueteesencial.jpg" alt="1" class="w-full flex-shrink-0 object-cover" />
-        <img src="./imgs/carrousel/sm/Paqueteavanzado.jpg" alt="2" class="w-full flex-shrink-0 object-cover" />
+        <img src="./imgs/carrousel/sm/paqueteesencial.jpg" alt="1" class="h-full flex-shrink-0 object-cover" />
+        <img src="./imgs/carrousel/sm/Paqueteavanzado.jpg" alt="2" class="h-full flex-shrink-0 object-cover" />
         <img src="./imgs/carrousel/sm/Paquetepremium.jpg" alt="3" class="w-full flex-shrink-0 object-cover" />
       </div>
 
-      <button id="prevBtn" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-90 text-gray-800 p-2 rounded-full shadow-md z-10">
+      <button class="carousel-prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-90 text-gray-800 p-2 rounded-full shadow-md z-10">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
         </svg>
       </button>
-      <button id="nextBtn" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-90 text-gray-800 p-2 rounded-full shadow-md z-10">
+      <button class="carousel-next absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-90 text-gray-800 p-2 rounded-full shadow-md z-10">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
@@ -47,7 +47,27 @@
     </div>
   </div>
 
-  
+  <div class="hidden md:flex flex-col items-center">
+    <div class="relative w-full overflow-hidden mt-4">
+      <div class="carousel flex transition-transform duration-700 ease-in-out">
+        <img src="./imgs/carrousel/lg/paqesencialhor.jpg" alt="1" class="w-full flex-shrink-0 object-cover" />
+        <img src="./imgs/carrousel/lg/paqesencialhor.jpg" alt="2" class="w-full flex-shrink-0 object-cover" />
+        <img src="./imgs/carrousel/lg/paqpremiumhor.jpg" alt="3" class="w-full flex-shrink-0 object-cover" />
+      </div>
+
+      <button class="carousel-prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-90 text-gray-800 p-2 rounded-full shadow-md z-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+      <button class="carousel-next absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-90 text-gray-800 p-2 rounded-full shadow-md z-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
 
   <div class="flex flex-col items-center">
     <a href="http://" class="text-center bg-[#C9010B] text-[#F8F3E6] font-[lexend] text-[12pt] md:text-[15pt] lg:text-[18pt] xl:text-[20pt] font-semibold rounded-full px-10 py-4 mt-5 hover:bg-[#F8F3E6] hover:text-[#C9010B] transition-colors duration-300">
