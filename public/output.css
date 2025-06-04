@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.bottom-\[10\%\] {
+  bottom: 10%;
+}
+
 .bottom-\[30\%\] {
   bottom: 30%;
 }
@@ -634,10 +638,6 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.ml-\[8\%\] {
-  margin-left: 8%;
-}
-
 .ml-\[9\%\] {
   margin-left: 9%;
 }
@@ -648,6 +648,10 @@ video {
 
 .mr-3 {
   margin-right: 0.75rem;
+}
+
+.mr-\[35\%\] {
+  margin-right: 35%;
 }
 
 .mt-0 {
@@ -682,10 +686,6 @@ video {
   margin-top: -12vw;
 }
 
-.mt-\[-15\%\] {
-  margin-top: -15%;
-}
-
 .flex {
   display: flex;
 }
@@ -710,6 +710,10 @@ video {
   height: 14rem;
 }
 
+.h-\[20\%\] {
+  height: 20%;
+}
+
 .h-\[65vh\] {
   height: 65vh;
 }
@@ -718,12 +722,20 @@ video {
   height: 80%;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-full {
   height: 100%;
 }
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-\[0\%\] {
+  width: 0%;
 }
 
 .w-\[100\%\] {
@@ -754,10 +766,6 @@ video {
   width: 32vw;
 }
 
-.w-\[35\%\] {
-  width: 35%;
-}
-
 .w-\[38\%\] {
   width: 38%;
 }
@@ -768,10 +776,6 @@ video {
 
 .w-\[50vw\] {
   width: 50vw;
-}
-
-.w-\[65\%\] {
-  width: 65%;
 }
 
 .w-\[80\%\] {
@@ -791,22 +795,6 @@ video {
   width: max-content;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[75\%\] {
-  width: 75%;
-}
-
-.w-\[90\] {
-  width: 90;
-}
-
-.w-\[23\%\] {
-  width: 23%;
-}
-
 .min-w-\[100\%\] {
   min-width: 100%;
 }
@@ -821,10 +809,6 @@ video {
 
 .max-w-full {
   max-width: 100%;
-}
-
-.max-w-\[\] {
-  max-width: ;
 }
 
 .flex-shrink-0 {
@@ -863,10 +847,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.content-around {
-  align-content: space-around;
 }
 
 .items-end {
@@ -1030,20 +1010,16 @@ video {
   padding-bottom: 0px;
 }
 
-.pl-4 {
-  padding-left: 1rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
+}
+
+.pb-\[1\.5vw\] {
+  padding-bottom: 1.5vw;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pt-4 {
@@ -1238,16 +1214,12 @@ video {
     display: none;
   }
 
-  .md\:w-\[\] {
-    width: ;
-  }
-
-  .md\:w-\[23\] {
-    width: 23;
-  }
-
   .md\:w-\[23\%\] {
     width: 23%;
+  }
+
+  .md\:w-\[77\%\] {
+    width: 77%;
   }
 
   .md\:grid-cols-\[3\.5fr_3fr_3\.5fr\] {
@@ -1279,14 +1251,6 @@ video {
     font-size: 9pt;
   }
 
-  .md\:text-\[10pt\] {
-    font-size: 10pt;
-  }
-
-  .md\:text-\[100pt\] {
-    font-size: 100pt;
-  }
-
   .md\:leading-8 {
     line-height: 2rem;
   }
@@ -1313,6 +1277,10 @@ video {
     margin-right: 3rem;
   }
 
+  .lg\:w-\[17\%\] {
+    width: 17%;
+  }
+
   .lg\:w-\[25vw\] {
     width: 25vw;
   }
@@ -1323,22 +1291,6 @@ video {
 
   .lg\:w-\[75\%\] {
     width: 75%;
-  }
-
-  .lg\:w-\[23\%\] {
-    width: 23%;
-  }
-
-  .lg\:w-\[21\%\] {
-    width: 21%;
-  }
-
-  .lg\:w-\[19\%\] {
-    width: 19%;
-  }
-
-  .lg\:w-\[17\%\] {
-    width: 17%;
   }
 
   .lg\:flex-row {
@@ -1362,8 +1314,12 @@ video {
     padding-top: 1.5rem;
   }
 
-  .lg\:text-\[12pt\] {
-    font-size: 12pt;
+  .lg\:text-\[10pt\] {
+    font-size: 10pt;
+  }
+
+  .lg\:text-\[11pt\] {
+    font-size: 11pt;
   }
 
   .lg\:text-\[15pt\] {
@@ -1386,32 +1342,16 @@ video {
     font-size: 95pt;
   }
 
-  .lg\:text-\[13pt\] {
-    font-size: 13pt;
-  }
-
-  .lg\:text-\[10pt\] {
-    font-size: 10pt;
-  }
-
-  .lg\:text-\[11pt\] {
-    font-size: 11pt;
-  }
-
-  .lg\:leading-10 {
-    line-height: 2.5rem;
-  }
-
   .lg\:leading-8 {
     line-height: 2rem;
   }
 
-  .lg\:leading-\[7\.1rem\] {
-    line-height: 7.1rem;
-  }
-
   .lg\:leading-9 {
     line-height: 2.25rem;
+  }
+
+  .lg\:leading-\[7\.1rem\] {
+    line-height: 7.1rem;
   }
 }
 
@@ -1464,10 +1404,6 @@ video {
     justify-content: flex-start;
   }
 
-  .xl\:justify-center {
-    justify-content: center;
-  }
-
   .xl\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -1483,10 +1419,6 @@ video {
 
   .xl\:text-\[13pt\] {
     font-size: 13pt;
-  }
-
-  .xl\:text-\[15pt\] {
-    font-size: 15pt;
   }
 
   .xl\:text-\[18pt\] {
@@ -1509,24 +1441,16 @@ video {
     font-size: 52pt;
   }
 
-  .xl\:text-\[120pt\] {
-    font-size: 120pt;
-  }
-
   .xl\:leading-10 {
     line-height: 2.5rem;
   }
 
-  .xl\:leading-\[4rem\] {
-    line-height: 4rem;
+  .xl\:leading-9 {
+    line-height: 2.25rem;
   }
 
   .xl\:leading-\[8\.3rem\] {
     line-height: 8.3rem;
-  }
-
-  .xl\:leading-9 {
-    line-height: 2.25rem;
   }
 }
 
