@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .bottom-\[10\%\] {
   bottom: 10%;
 }
@@ -594,10 +598,6 @@ video {
   top: 50%;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .z-0 {
   z-index: 0;
 }
@@ -616,10 +616,6 @@ video {
 
 .col-span-2 {
   grid-column: span 2 / span 2;
-}
-
-.m-3 {
-  margin: 0.75rem;
 }
 
 .mx-0 {
@@ -719,22 +715,6 @@ video {
   margin-top: -12vw;
 }
 
-.ml-\[\] {
-  margin-left: ;
-}
-
-.ml-\[12\%\] {
-  margin-left: 12%;
-}
-
-.ml-\[\%\] {
-  margin-left: %;
-}
-
-.ml-\[5\%\] {
-  margin-left: 5%;
-}
-
 .flex {
   display: flex;
 }
@@ -777,6 +757,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.w-0 {
+  width: 0px;
 }
 
 .w-6 {
@@ -848,10 +832,6 @@ video {
   width: max-content;
 }
 
-.w-0 {
-  width: 0px;
-}
-
 .min-w-\[100\%\] {
   min-width: 100%;
 }
@@ -866,10 +846,6 @@ video {
 
 .max-w-full {
   max-width: 100%;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
 }
 
 .flex-shrink-0 {
@@ -920,10 +896,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.flex-col-reverse {
-  flex-direction: column-reverse;
 }
 
 .items-end {
@@ -1059,20 +1031,8 @@ video {
   padding: 0.5rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .p-4 {
   padding: 1rem;
-}
-
-.p-7 {
-  padding: 1.75rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .px-10 {
@@ -1095,16 +1055,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -1117,16 +1067,24 @@ video {
   padding-bottom: 1.5vw;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
+.pr-14 {
+  padding-right: 3.5rem;
 }
 
-.pt-0 {
-  padding-top: 0px;
+.pr-7 {
+  padding-right: 1.75rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-center {
@@ -1317,14 +1275,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:invisible {
-    visibility: hidden;
-  }
-
-  .md\:collapse {
-    visibility: collapse;
-  }
-
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -1361,16 +1311,8 @@ video {
     width: 77%;
   }
 
-  .md\:w-0 {
-    width: 0px;
-  }
-
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:w-full {
-    width: 100%;
   }
 
   .md\:grid-cols-\[3\.5fr_3fr_3\.5fr\] {
