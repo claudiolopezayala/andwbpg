@@ -715,6 +715,22 @@ video {
   margin-top: -12vw;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
