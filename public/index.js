@@ -45,3 +45,22 @@ carouselSections.forEach((carousel, idx) => {
   // Update on resize
   window.addEventListener('resize', updateCarousel);
 });
+
+
+const toggleButton = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    toggleButton.addEventListener('click', () => {
+      if (mobileMenu.classList.contains('scale-y-0')) {
+        requestAnimationFrame(() => {
+          mobileMenu.classList.remove('scale-y-0');
+          mobileMenu.classList.add('scale-y-100', 'flex');
+        });
+      } else {
+        mobileMenu.classList.remove('scale-y-100');
+        mobileMenu.classList.add('scale-y-0');
+        setTimeout(() => {
+          mobileMenu.classList.remove('flex');
+        }, 300);
+      }
+    });
