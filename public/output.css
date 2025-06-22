@@ -667,12 +667,20 @@ video {
   margin-left: 0.25rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .ml-\[3\%\] {
   margin-left: 3%;
 }
 
 .ml-\[4\%\] {
   margin-left: 4%;
+}
+
+.ml-\[5\%\] {
+  margin-left: 5%;
 }
 
 .ml-\[9\%\] {
@@ -757,6 +765,10 @@ video {
 
 .h-\[20\%\] {
   height: 20%;
+}
+
+.h-\[3rem\] {
+  height: 3rem;
 }
 
 .h-\[65vh\] {
@@ -954,6 +966,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .overflow-hidden {
@@ -1367,6 +1383,10 @@ video {
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .md\:pl-10 {
+    padding-left: 2.5rem;
   }
 
   .md\:text-\[10pt\] {
