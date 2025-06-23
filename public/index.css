@@ -22,3 +22,7 @@
 .passion-one {
   font-family: 'Passion One';
 }
+
+summary::-webkit-details-marker {
+  display: none;
+}
