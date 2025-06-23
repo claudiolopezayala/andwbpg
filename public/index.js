@@ -64,3 +64,12 @@ const toggleButton = document.getElementById('menu-toggle');
         }, 300);
       }
     });
+
+
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+  if (isSafari) {
+    document.getElementById('safariFallback').classList.remove('hidden');
+  } else {
+    document.getElementById('webpAnim').classList.remove('hidden');
+  }
